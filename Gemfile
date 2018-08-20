@@ -1,7 +1,14 @@
 source 'https://rubygems.org'
+
+gem "refile" , require: "refile/rails" , github: 'manfe/refile'
+gem "refile-mini_magick"
+
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 # ruby '2.3.3'
+
+
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.1'
